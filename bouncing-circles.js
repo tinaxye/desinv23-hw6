@@ -39,7 +39,7 @@ function draw() {
       circle.xd = -circle.xd;
       circle.r -= 10;
       strokeWeight(4);
-      stroke(500);
+      stroke(0, 0, 0);
       if (circle.r <= 0) {
         circle.x = width/2;
         circle.r = 40;
@@ -49,7 +49,7 @@ function draw() {
       circle.yd = -circle.yd;
       circle.r -= 10;
       strokeWeight(4);
-      stroke(500);
+      stroke(0, 0, 0);
       if (circle.r <= 0) {
         circle.y = height/2;
         circle.r = 40;
